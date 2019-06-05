@@ -1,6 +1,8 @@
 # metabarcoding
 Using PCR amplicons to describe microbial diversity
 
+MAUI-seq: Multiplexed, high-throughput amplicon diversity profiling using unique molecular identifiers
+
 This repository includes scripts for the analysis of amplicon sequences that incorporate a random sequence tag (seqid or Unique Molecular Identifier).  The method is described in the following preprint: https://www.biorxiv.org/content/10.1101/538587v2.abstract.
 
 MAUIsortgenes is a simple script that sorts multiplexed fastq sequences into gene-specific files based on a short motif in the forward primer.  It was written for our own data but is easily modified.
